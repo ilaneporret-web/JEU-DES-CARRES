@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu des Carrés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Jeu des Carrés</h1>
+
+        <div class="boutons-container">
+            <button id="bouton-jouer" class="bouton-jeu">
+                Mode Normal
+            </button>
+
+            <button id="mode-survie" class="bouton-jeu">
+                Mode Survie
+            </button>
+            <p id="message-permanent">
+            Clique sur les carrés verts pour gagner
+            </p>
+        </div>
+
+        <div id="zone-jeu"></div>
+        <div id="overlay"></div>
+        <p id="score-label">Score : 0</p>
+        <p id="niveau-label">Niveau : 1</p>
+        <p id="message-jeu"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
